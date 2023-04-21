@@ -1,4 +1,3 @@
-
 export class HolbertonClass {
     constructor(year, location) {
         this._year = year;
@@ -33,7 +32,6 @@ export class StudentHolberton {
         return `${this.fullName} - ${this.holbertonClass.year} - ${this.holbertonClass.location}`;
     }
 }
-
 
 const class2019 = new HolbertonClass(2019, 'San Francisco');
 const class2020 = new HolbertonClass(2020, 'San Francisco');
